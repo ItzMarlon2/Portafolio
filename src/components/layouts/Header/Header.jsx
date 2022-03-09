@@ -24,7 +24,7 @@ return (
                     <ul>
                         <li><a href="#main">Inicio</a></li>
                         <li><a href="#about">Acerca de mi</a></li>
-                        <li><a href="#">Mis proyectos</a></li>
+                        <li><a href="#mainProyectos">Mis proyectos</a></li>
                     </ul>
                 </nav>
             </div>

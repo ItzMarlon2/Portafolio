@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3, faJava, faJsSquare, faPython, faGitAlt, 
-    faReact, faDocker, faPhp, faPhoenixFramework } from '@fortawesome/free-brands-svg-icons'
+    faReact, faDocker, faPhp, faPhoenixFramework, faGit } from '@fortawesome/free-brands-svg-icons'
 import { faAsterisk, faDatabase, faFlask, faUserFriends } from '@fortawesome/free-solid-svg-icons'
 
 import { Parrafo } from '../../ui/Parrafo/Parrafo';
@@ -88,6 +88,9 @@ export const MainAbout = () => {
                     </div>
                     <div className="scrum">
                         <FontAwesomeIcon icon={faUserFriends}/> <Parrafo texto="SCRUM"/>
+                    </div>
+                    <div className="html">
+                        <FontAwesomeIcon icon={faGitAlt}/> <Parrafo texto="GIT"/>
                     </div>
                 </div>
                 <Parrafo texto="Herramientas" clase="descripcion2"/>

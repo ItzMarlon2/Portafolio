@@ -41,7 +41,7 @@ export const MainPrincipal = () => {
                 <Imagen url={Maletin}/><TituloH1 texto="¡BIENVENIDO A MI PORTAFOLIO! SOY MARLON ANDRÉS CAMPO AMÓRTEGUI"/>
                 <Parrafo texto="(Web developer)"/>
                 <div className="buttons__cover">
-                    <a className="btn__sobre-cover" href="#about">Más Sobre mi</a>
+                    <a className="btn__sobre-cover" href="#footer">Más Sobre mi</a>
                 </div>
             </div>
             <div className="media__cover" data-aos="fade-left">
@@ -57,8 +57,7 @@ export const MainPrincipal = () => {
                     <Imagen id="img_numeral" url={Archivo}/>
                 </div>
                 <div className="banner__text">
-                    <TituloH2 texto="¡Descarga aqui mi hoja de vida!"/>
-                    <a href="https://drive.google.com/file/d/13dpwDnlEyYusn7MGwvfzSgclrlFG11D7/view?usp=sharing" target={'_blank'}>Descargar CV</a>
+                    <a href="https://drive.google.com/file/d/13dpwDnlEyYusn7MGwvfzSgclrlFG11D7/view?usp=sharing" target={'_blank'}>¡Descarga aqui mi hoja de vida!</a>
                 </div>
                 
             </div>
