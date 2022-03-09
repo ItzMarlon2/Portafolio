@@ -41,7 +41,7 @@ return (
                 <Imagen url={rick} alt="" clase="img"/>
                 <div className="capa">
                     <h3>VISITA EL CÓDIGO FUENTE</h3>
-                    <a href="https://github.com/ItzMarlon2/Api-Rick-React.git" target={'_blank'}>Visitar <FontAwesomeIcon icon={faArrowRight} className="icono"/></a>
+                    <a href="https://api-rickandmorty-react.herokuapp.com/" target={'_blank'}>Visitar <FontAwesomeIcon icon={faArrowRight} className="icono"/></a>
                 </div>
                 <Parrafo texto="API RICK AND MORTY"/>
             </div>
@@ -57,7 +57,7 @@ return (
                 <Imagen url={carrito} alt="" clase="img"/>
                 <div className="capa">
                     <h3>VISITA EL CÓDIGO FUENTE</h3>
-                    <a href="https://github.com/ItzMarlon2/Carrito-JS.git" target={'_blank'}>Visitar <FontAwesomeIcon icon={faArrowRight} className="icono"/></a>
+                    <a href="https://mac-carritodecomprasjs.netlify.app" target={'_blank'}>Visitar <FontAwesomeIcon icon={faArrowRight} className="icono"/></a>
                 </div>
                 <Parrafo texto="CARRITO DE COMPRAS JS"/>
             </div>
@@ -65,7 +65,7 @@ return (
                 <Imagen url={deporCasd} alt="" clase="img"/>
                 <div className="capa">
                     <h3>VISITA LA PÁGINA WEB</h3>
-                    <a href="https://github.com/ItzMarlon2/Proyecto-CRUD-PHP.git" target={'_blank'}>Visitar <FontAwesomeIcon icon={faArrowRight} className="icono"/></a>
+                    <a href="https://mac-maquetadoweb.netlify.app" target={'_blank'}>Visitar <FontAwesomeIcon icon={faArrowRight} className="icono"/></a>
                 </div>
                 <Parrafo texto="MAQUETADO WEB"/>
             </div>

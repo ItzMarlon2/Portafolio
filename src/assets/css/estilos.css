@@ -457,7 +457,7 @@ body{
 }
 
 .container-imagenes p{
-    font-size: 25px;
+    font-size: 20px;
     display: block;
     text-align: center;
     height: 10vh;
@@ -694,6 +694,20 @@ body{
 }
 
 @media (max-width: 920px){
+
+    .mainAbout{
+        margin-top: 300px;
+    }
+
+    .parrafos{
+        width: 100%;
+    }
+
+    .imagen-perfil{
+        width: 200px;
+        height: 200px;
+    }
+
     .text__information-cover{
         width: 100%;
     }
@@ -722,5 +736,13 @@ body{
 
     .card{
         min-width:100% ;
+    }
+
+    #img_heart{
+        display:none;
+    }
+
+    #img_correo{
+        display:none;
     }
 }

@@ -26,9 +26,9 @@ export const Footer = () => {
           </div>
           <div className="info__footer">
           <ul>
-            <div className="li"><a href=""><FontAwesomeIcon icon={faEnvelope}/> marlonamorteguicampo@gmail.com</a></div>
-            <div className="li"><a href=""><FontAwesomeIcon icon={faPhone}/> +57 3186823863</a></div>
-            <div className="li"><a href=""><FontAwesomeIcon icon={faFacebook}/> Marlon Campo</a></div>
+            <div className="li"><a href="https://www.google.com/intl/es-419/gmail/about/"><FontAwesomeIcon icon={faEnvelope} target={'_blank'}/> marlonamorteguicampo@gmail.com</a></div>
+            <div className="li"><a href="https://wa.me/+573186823863"><FontAwesomeIcon icon={faPhone} target={'_blank'}/> +57 3186823863</a></div>
+            <div className="li"><a href="https://www.facebook.com/ItzMarlon13/"><FontAwesomeIcon icon={faFacebook} target={'_blank'}/> Marlon Campo</a></div>
           </ul>
         <div className="hr">
         <hr />

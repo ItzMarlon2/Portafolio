@@ -14,9 +14,6 @@ import { BotonSubir } from '../../ui/BotonSubir/BotonSubir';
 
 export const Body = () => {
 
-  const boton = document.getElementById('boton_arriba')
-  console.log(boton);
-
   const obtener_pixeles = () => document.documentElement.scrollTop || document.body.scrollTop
 
   let scroll    = Scroll.animateScroll;
@@ -28,15 +25,14 @@ export const Body = () => {
   }
 
   window.onscroll = function(){
-    if(obtener_pixeles() >50){
-      console.log(boton);
+    const boton = document.getElementById('boton_arriba')
 
+    if(obtener_pixeles() >50){
       boton.classList.add("mostrar")
       boton.classList.remove("ocultar")
     } else{
       boton.classList.add("ocultar")
       boton.classList.remove("mostrar")
-      console.log("hola2");
     }
   }
 
