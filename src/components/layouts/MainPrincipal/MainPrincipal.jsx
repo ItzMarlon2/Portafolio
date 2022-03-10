@@ -57,7 +57,7 @@ export const MainPrincipal = () => {
                     <Imagen id="img_numeral" url={Archivo}/>
                 </div>
                 <div className="banner__text">
-                    <a href="https://drive.google.com/file/d/13dpwDnlEyYusn7MGwvfzSgclrlFG11D7/view?usp=sharing" target={'_blank'}>¡Descarga aqui mi hoja de vida!</a>
+                    <a href="https://drive.google.com/file/d/13dpwDnlEyYusn7MGwvfzSgclrlFG11D7/view?usp=sharing" target={'_blank'}>¡Descarga <b>aqui</b> mi hoja de vida!</a>
                 </div>
                 
             </div>
