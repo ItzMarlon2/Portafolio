@@ -1,9 +1,4 @@
 import './assets/css/estilos.css';
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
 
 import { Body } from './components/pages/Body/Body';
 
